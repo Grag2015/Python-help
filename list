@@ -1,2 +1,7 @@
+https://docs.python.org/2/tutorial/datastructures.html
+
 # получение уникальных значений списка list
 mylist = list(set(mylist))
+
+# сортировка листа 
+list.sort()
