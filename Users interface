@@ -1,0 +1,12 @@
+def configureSettings ():
+    print "Найдено 100 вариантов размещения комнат"
+    configure = raw_input ('T - Gj \tD - Default settings: ')
+    match1 = re.search( 't',configure, re.IGNORECASE )
+    if match1:
+      global target
+      target = input('Target int: ' )
+    return target # можно и не возвращать ничего, просто выполнять здесь какой-то код
+    
+def main():
+  configureSettings ()
+   # код программы
