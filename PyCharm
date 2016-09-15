@@ -13,4 +13,5 @@ NEW
 # TODO comment - комментарий, который парсится в список TODO (внизу на закладке)
 Ctrl + Alt + E - список последних операций в консоли
 Ctrl + Alt + Shift + N - список функций
-ctrl+K - commit
+Ctrl+K - commit
+Ctrl + Down/Up - пролистать на 1 строку вверх/вниз
