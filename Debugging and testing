@@ -19,14 +19,18 @@ pr.print_stats(sort='time')
 
 Тесты можно содержать в самом теле функции или в отдельном файле. 
 http://pythontesting.net/framework/doctest/doctest-introduction/
+https://docs.python.org/2/library/doctest.html
 
 Пример кода (обрати внимание на кавычки - они должны быть точно такими)
 def multiply(a, b):
     """
-    >>> multiply(4, 3)
-    12
+    >>> t=5
+    >>> multiply(t, 3)
+    15
     >>> multiply('a', 3)
     'aaa'
+    >>> [multiply(n,n) for n in range(3)]
+    [0, 1, 4]
     """
     return a * b
 
