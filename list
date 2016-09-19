@@ -6,7 +6,8 @@ mylist = list(set(mylist))
 # сортировка листа 
 list.sort()
 
-# Хорошее отображение плохих 2D-листов 
+# **Хорошее отображение плохих 2D-листов** 
+оригинал http://stackoverflow.com/questions/13214809/pretty-print-2d-python-list
 
 matrix = [
    ["Ah!",  "We do have some Camembert", "sir"],
