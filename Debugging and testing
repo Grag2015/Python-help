@@ -41,3 +41,16 @@ python -m doctest -v script_name.py
 if __name__ == "__main__":
     import doctest
     doctest.testmod()
+
+# ОБРАБОТЧИК ОШИБОК
+(x, y) = (5, 0)
+def divideby2(a,b):
+    return divideby(a,b)
+
+def divideby(a,b):
+    return a/b
+
+try:
+    z = divideby2(x,y)
+except ZeroDivisionError: # Это имя ошибки - его смотрит в конце в консоли в конце списка Traceback об ошибке
+    print "divide by zero"
