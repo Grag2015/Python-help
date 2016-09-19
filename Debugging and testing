@@ -20,6 +20,7 @@ pr.print_stats(sort='time')
 Тесты можно содержать в самом теле функции или в отдельном файле. 
 http://pythontesting.net/framework/doctest/doctest-introduction/
 https://docs.python.org/2/library/doctest.html
+https://pymotw.com/2/doctest/ - много интересных вариантов применения
 
 Пример кода (обрати внимание на кавычки - они должны быть точно такими)
 def multiply(a, b):
