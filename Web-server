@@ -1,0 +1,19 @@
+Python позволяет очень легко создавать веб-сервер
+буквально так:
+$ python -m SimpleHTTPServer
+
+см. детали
+http://www.linuxjournal.com/content/tech-tip-really-simple-http-server-python
+
+Также можно подвязать фреймворк
+https://ruslanspivak.com/lsbaws-part2/
+
+Проброс порта, подключение к локальному сервису из Интернет
+Можно выделить статический, динамический IP-адрес и серый IP-адрес, выходящий в инет через NAT.
+Как пробросить порт и как проверить белый ли адрес - https://yadi.sk/i/Kh1ypdPOvfyLZ
+Как пробросить порт (2) - http://oivt.ru/blog/dostup-k-lokalnomu-web-serveru-iz-interneta
+Как пробросить порт (3) - http://compfixer.info/port-forwarding/
+
+отображать все соединения и используемые порты.
+Netstat –ao
+Источник: [url=http://winreview.ru/kak-uznat-kakaya-programma-ispolzuet-tot-ili-inoj-port-v-windows-7/]Winreview.ru[/url]
