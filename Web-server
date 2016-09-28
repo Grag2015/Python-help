@@ -18,3 +18,11 @@ https://ruslanspivak.com/lsbaws-part2/
 отображать все соединения и используемые порты.
 Netstat –ao
 Источник: [url=http://winreview.ru/kak-uznat-kakaya-programma-ispolzuet-tot-ili-inoj-port-v-windows-7/]Winreview.ru[/url]
+
+Получение и обработка пакета комнат в виде JSON
+тут блок-схема взаимодествия WSGI и Pyramid - https://yadi.sk/i/21xu48Kivqpq5
+версии рабочих скриптов: https://github.com/Grag2015/Evolution/commit/06a908b8fe906067cbe910c635cdc01a47802428
+
+цикл статей по веб-серверу на питоне
+http://www.informit.com/articles/article.aspx?p=2161679
+
