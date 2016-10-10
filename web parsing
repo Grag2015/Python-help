@@ -1,3 +1,9 @@
 # есть хорошие инструменты для веб-парсинга
-# библиотека scrapy поддерживает регулярные выражения, парсинг по CSS, path-нотацию
+# библиотека scrapy поддерживает регулярные выражения, парсинг по CSS, xpath-нотацию
 https://doc.scrapy.org/en/1.2/intro/tutorial.html
+
+# несколько хелпов по xpath
+https://msdn.microsoft.com/ru-ru/library/ms256086(v=vs.90).aspx
+http://zvon.org/xxl/XPathTutorial/Output_rus/examples.html
+http://zvon.org/xxl/XPathTutorial/Output_rus/example19.html
+http://pythonr.blogspot.com.by/2015/01/xpath.html
