@@ -1,0 +1,33 @@
+# тут про взаимодействие между приложениями на различных языках, а также между модулями приложений
+1. скрипт-веб-сервер, который получает и отправляет данные в формате json см. здесь https://github.com/Grag2015/Python-help/blob/master/Web-server
+2. сохранение переменных любой сложности для дальнейшей передачи и использования
+Пример сохранения данных в строку
+
+# coding: utf-8
+import cPickle
+data = ['Test data', {'Structure':'Any'} ]
+print data
+
+# dump
+s = cPickle.dumps(data)
+# load
+data = cPickle.loads(s)
+print data
+
+Пример сохранения в файл
+# coding: utf-8
+import cPickle
+data = ['Test data', {'Structure':'Any'} ]
+print data
+
+# save
+file = open("file.txt", 'w')
+cPickle.dump(data, file)
+file.close()
+# load
+file = open("file.txt", 'r')
+data = cPickle.load(file)
+file.close()
+print data
+
+3. вытаскивали код, реализующий классификацию градиентный бустинг
