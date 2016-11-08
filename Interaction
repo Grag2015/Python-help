@@ -21,7 +21,7 @@ data = ['Test data', {'Structure':'Any'} ]
 print data
 
 # save
-file = open("file.txt", 'w')
+file = open("file.txt", 'w') # в проекте в PyCharm я писал полный путь к файлу, режим открытия файла - 'wb'
 cPickle.dump(data, file)
 file.close()
 # load
