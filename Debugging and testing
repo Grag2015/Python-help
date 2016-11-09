@@ -55,3 +55,7 @@ try:
     z = divideby2(x,y)
 except ZeroDivisionError: # Это имя ошибки - его смотрит в конце в консоли в конце списка Traceback об ошибке
     print "divide by zero"
+
+# пару статей об отладке
+http://pedrokroger.net/python-debugger/
+https://habrahabr.ru/company/mailru/blog/205426/
