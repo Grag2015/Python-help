@@ -1,3 +1,6 @@
+# лекции по pandas
+http://nbviewer.jupyter.org/urls/bitbucket.org/hrojas/learn-pandas/raw/master/lessons/01%20-%20Lesson.ipynb
+
 # List unique values in a DataFrame column
 pd.unique(df.column_name.ravel())
 
