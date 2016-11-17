@@ -1,0 +1,5 @@
+# под Windows 10 для отображения графиков надо ставить PyQt4
+http://stackoverflow.com/questions/22640640/how-to-install-pyqt4-on-windows-using-pip
+и вот так переключать режим:
+import matplotlib
+matplotlib.use('Qt4Agg')
