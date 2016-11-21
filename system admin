@@ -3,3 +3,39 @@ http://stackoverflow.com/questions/22640640/how-to-install-pyqt4-on-windows-usin
 и вот так переключать режим:
 import matplotlib
 matplotlib.use('Qt4Agg')
+
+**PIP инсталлер для Python**
+Установка пакета
+Давайте установим пакет Markdown:
+
+$ pip install Markdown
+
+Markdown установлен, вы можете импортировать и использовать его:
+
+$ python -c "import markdown; print markdown.markdown('**Excellent**')"
+
+Листинг установленных пакетов
+Чтобы получить список установленных пакетов и версий, используйте команду freeze:
+
+$ pip freeze
+Markdown==2.0.3
+wsgiref==0.1.2
+
+Установка определенных версий
+Вы также можете указать определенную версию пакета, которую хотите установить, для этого используйте ==,> =,>, <, <=:
+
+$ pip install 'Markdown<2.0'
+
+При вводе данной команды pip найдет текущий установленный пакет Markdown 2.0.3, автоматически удалить его и установит Markdown 1,7 (последнюю версию ветки 1.x. Вы также можете объединять необходимую версии пакетов через запятую:
+
+$ pip install 'Markdown>2.0,<2.0.3'
+
+Обновление
+Если вы хотите обновить пакет до последней доступной версии, используйте -U или --upgrade:
+
+$ pip install -U Markdown
+
+Удаление
+Теперь удалите Markdown:
+
+$ pip uninstall Markdown
