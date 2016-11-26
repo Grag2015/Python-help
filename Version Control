@@ -33,3 +33,6 @@ $ git push origin master
 
 Переименование файлов
 $ git mv file_from file_to
+
+Смерживание при наличии противоречий в локальной и серверной версии
+https://yadi.sk/i/IT38pBxqzZ3n9
