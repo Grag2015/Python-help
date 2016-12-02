@@ -44,3 +44,6 @@ $ pip uninstall Markdown
 # & - объединение команд
 from subprocess import check_output
 check_output("cd /d C:\Users\GMiholap\PycharmProjects\Evolution & python web_app2.py pyramidapp:app", shell=True)
+
+# АВТОЗАПУСК СКРИПТА НА ПИТОНЕ (как демон, в фоне)
+https://yadi.sk/i/-ka_fMBMzyRMh
