@@ -28,3 +28,26 @@ https://github.com/Grag2015/Evolution/commit/06a908b8fe906067cbe910c635cdc01a478
 цикл статей по веб-серверу на питоне
 http://www.informit.com/articles/article.aspx?p=2161679
 
+Если размер буфера не позволяет получить все данные из запроса
+http://code.activestate.com/recipes/408859/
+в частности я использовал эту ф-ю recv_timeout(self.client_connection,2) вместо просто self.client_connection.recv()
+def recv_timeout(the_socket,timeout=2):
+    the_socket.setblocking(0)
+    total_data=[];data='';begin=time.time()
+    while 1:
+        #if you got some data, then break after wait sec
+        if total_data and time.time()-begin>timeout:
+            break
+        #if you got no data at all, wait a little longer
+        elif time.time()-begin>timeout*2:
+            break
+        try:
+            data=the_socket.recv(8192).decode('utf-8')
+            if data:
+                total_data.append(data)
+                begin=time.time()
+            else:
+                time.sleep(0.1)
+        except:
+            pass
+    return ''.join(total_data)
