@@ -5,6 +5,10 @@ $ python -m SimpleHTTPServer
 см. детали
 http://www.linuxjournal.com/content/tech-tip-really-simple-http-server-python
 
+# БОльше всего понравился этот (его поднимал для работы скриптов)
+https://gist.github.com/bradmontgomery/2219997
+мой код - https://bitbucket.org/Ryhor2017/plumbum/commits/bc9489856c3ccea6fbda438d61c6910823e71bbc
+
 Также можно подвязать фреймворк
 https://ruslanspivak.com/lsbaws-part2/
 конфигурация Pyramid Framework http://www.informit.com/articles/article.aspx?p=2161677
